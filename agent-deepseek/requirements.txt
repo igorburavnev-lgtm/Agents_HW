@@ -1,0 +1,26 @@
+# Runtime dependencies for the Investing Demo project.
+# Compatible with Python 3.11+ (verified on CPython 3.12).
+#
+# The Tinkoff Invest SDK is NOT installable from PyPI any more (both
+# `tinkoff` and `tinkoff-investments` return 404), so it is kept out of the
+# runtime set and can be installed separately from source - see
+# requirements-tinkoff.txt and MODERNIZATION.md.
+
+# Web framework and API
+Django==5.2.18
+djangorestframework==3.16.1
+django-filter==25.2
+
+# Forms and UI
+django-crispy-forms==2.4
+crispy-bootstrap3==2024.1
+
+# Charts
+plotly==6.9.0
+
+# Background jobs
+celery==5.5.3
+redis==6.4.0
+
+# Database driver (PostgreSQL); SQLite needs no extra package
+psycopg[binary]==3.3.6
