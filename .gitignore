@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Мусор внутри папок агентов
+agent-*/.venv/
+agent-*/.tmp/
+agent-*/.git_disabled/
+agent-*/app.logs
+agent-*/db.sqlite3
+agent-*/.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
