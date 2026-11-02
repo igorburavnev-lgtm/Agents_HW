@@ -25,3 +25,15 @@ Thumbs.db
 db.sqlite3
 .env
 app.logs
+.git_disabled/
+agent-deepseek/.git_disabled/
+agent-opencode/.git_disabled/
+
+# Мусор внутри папок агентов
+agent-*/.venv/
+agent-*/.tmp/
+agent-*/.git_disabled/
+agent-*/app.logs
+agent-*/db.sqlite3
+agent-*/.env
+
